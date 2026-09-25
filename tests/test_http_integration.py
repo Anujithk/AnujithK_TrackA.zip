@@ -33,9 +33,11 @@ class HttpIntegrationTests(unittest.TestCase):
 
     def setUp(self):
         # Reset database to clean demo state for each test
-        if self.db_path.exists():
-            self.db_path.unlink()
         db = storage.connect(self.db_path)
+        with db:
+            db.execute('DELETE FROM payments')
+            db.execute('DELETE FROM invoices')
+            db.execute('DELETE FROM customers')
         storage.seed(db)
         db.close()
 
