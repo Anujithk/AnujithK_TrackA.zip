@@ -1,7 +1,7 @@
 # Handover
 
-- Name: Applicant
-- Email used for this application: applicant@example.com
+- Name: ANUJITH K
+- Email used for this application: anujithdasan123@gmail.com
 - Chosen track: Track A (Repair the register)
 - Why this track: I chose Track A to apply rigorous systems investigation, data integrity protection, financial accounting precision, and end-to-end defect remediation to a real-world service business register.
 - Approximate total time, including setup and handover: ~150 minutes
